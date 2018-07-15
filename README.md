@@ -12,3 +12,11 @@ The Challenge
 * Develop a web UI that loads the contents of users.json and renders a list of random assignments for [Secret Santa](http://en.wikipedia.org/wiki/Secret_Santa)
 * Extra interactivity/styling will be considered a bonus.
 * Use the included index.html and user.json to begin with but do not modify the structure of the users.json. You are free to modify index.html as you wish.
+
+Project Setup
+-------------
+
+* Clone the project into your local machine, and first build the project.
+* Now, run the project using the command:
+
+* You will view the project in the url localhost:8080
