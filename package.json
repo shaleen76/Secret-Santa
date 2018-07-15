@@ -4,6 +4,8 @@
   "description": "Secret Santa is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they give a gift. The identity of the gift giver is a secret not to be revealed.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot", 
+    "build": "webpack --mode production ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,19 @@
   "bugs": {
     "url": "https://github.com/shaleen76/Secret-Santa/issues"
   },
-  "homepage": "https://github.com/shaleen76/Secret-Santa#readme"
+  "homepage": "https://github.com/shaleen76/Secret-Santa#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
 }
