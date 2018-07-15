@@ -8,14 +8,37 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        rules:  [
+        rules:  [{
+            test: /\.(png|jpg|gif)$/,
+            use: {
+                loader: 'file-loader'
+            }        
+        },
+          {
+            test: /\.css$/,
+            loaders: [
+              'style?sourceMap',
+              'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]'
+          ]}, {
+            test: /\.scss$/,
+            loaders: [
+               'style?sourceMap',
+               'css?modules&importLoaders=1&localIdentName=[path]___[name]__[local]___[hash:base64:5]',
+               'resolve-url',
+               'sass?sourceMap'
+           ]
+         },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
                 }
-            }
+            },{
+                test: /\.less$/,
+                exclude: /node_modules/,
+                loader: "style-loader!css-loader!less-loader"
+              }
         ]
     },
     plugins:    [
