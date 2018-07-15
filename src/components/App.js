@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import HeroPanel from './HeroPanel';
+import Footer from './Footer';
 require('../../style.less');
 
 class Santa extends Component   {
@@ -7,6 +8,7 @@ class Santa extends Component   {
         return (
             <div className = "container">
                 <HeroPanel />
+                <Footer />
             </div>
         )    
     }
