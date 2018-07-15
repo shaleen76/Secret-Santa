@@ -1,0 +1,10 @@
+# Generated Secret Santa Application Files/Directories
+
+.DS_Store
+node_modules
+*.swp
+debug.log
+package-lock.json
+db.json
+*.log
+nodes/
