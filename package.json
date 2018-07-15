@@ -1,0 +1,27 @@
+{
+  "name": "secret-santa",
+  "version": "1.0.0",
+  "description": "Secret Santa is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they give a gift. The identity of the gift giver is a secret not to be revealed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaleen76/Secret-Santa.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "React",
+    "JS",
+    "JavaScript"
+  ],
+  "author": "Shaleen Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaleen76/Secret-Santa/issues"
+  },
+  "homepage": "https://github.com/shaleen76/Secret-Santa#readme"
+}
