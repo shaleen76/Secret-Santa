@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import HeroPanel from './HeroPanel';
 require('../../style.less');
 
 class Footer extends Component{

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 require('../../style.less');
 
-class HeroPanel extends Component   {
+class Header extends Component   {
     render()    {
         return(
             <section className = 'hero'></section>
@@ -10,4 +10,4 @@ class HeroPanel extends Component   {
     }
 }
 
-export default HeroPanel;
+export default Header;
