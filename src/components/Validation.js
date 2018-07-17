@@ -1,14 +1,14 @@
-import React, {Component} from 'react';
-require('../../style.less');
+import React, { Component } from 'react';
+require('../../public/style.less');
 
-class Validation extends Component  {
-    render()    {
-        return(
-            <div className = "ui warning message">
-                <div className = "header">
+class Validation extends Component {
+    render() {
+        return (
+            <div className="ui warning message">
+                <div className="header">
                     Insufficient data
                 </div>
-                <ul className = "list">
+                <ul className="list">
                     <li>
                         Insufficient data in the database. Please check the users.json file.
                     </li>

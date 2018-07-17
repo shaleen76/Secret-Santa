@@ -1,20 +1,20 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Header from './Header';
-import SecretSanta from  './SecretSanta';
+import SecretSanta from './SecretSanta';
 import Footer from './Footer';
-require('../../style.less');
+require('../../public/style.less');
 
-class Santa extends Component  {
-    render()    {
+class Santa extends Component {
+    render() {
         return (
-            <div className = "container">
+            <div className="container">
                 <Header />
                 <SecretSanta />
-                <div className = "space">
+                <div className="space">
                     <Footer />
                 </div>
             </div>
-        )    
+        )
     }
 }
 

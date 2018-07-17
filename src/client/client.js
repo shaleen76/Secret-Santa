@@ -18,7 +18,6 @@ const client = (function () {
             const error = new Error(`HTTP Error ${response.statusText}`);
             error.status = response.statusText;
             error.response = response;
-            console.log(error);
             throw error;
         }
     }
@@ -28,6 +27,6 @@ const client = (function () {
     }
 
     return {
-        getTimers
+        getUsers
     };
 })();
