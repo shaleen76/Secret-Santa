@@ -10,7 +10,9 @@ class Santa extends Component  {
             <div className = "container">
                 <Header />
                 <SecretSanta />
-                <Footer />
+                <div className = "space">
+                    <Footer />
+                </div>
             </div>
         )    
     }
