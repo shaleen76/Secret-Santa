@@ -17,6 +17,10 @@ The Challenge
 
 This application, (Secret Santa) is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they give a gift. The identity of the gift giver is a secret not to be revealed.
 
+### Application Screnshot Demonstration in Chrome Browser
+
+![Alt text](/Secret Santa Application.jpg?raw=true "Secret Santa Application")
+
 ### Tools Used
 
 The application is responsive in nature and is designed using HTML, CSS, JavaScript, React JS, Semantic UI, Webpack, Bower, VS Code Editor, Mac and Node JS.
