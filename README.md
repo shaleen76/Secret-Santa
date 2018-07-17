@@ -54,11 +54,28 @@ We included the **CDN for Semantic UI** in `index.html` file.
  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
 ```
 
-**Running the app**
+### Running the Secret Santa Application
 
-- Run `npm install`
-- Run `NODE_ENV=development gulp`
-- Go to `localhost:8889` to display the app
+1. Install all the dependencies required by the application using NPM:
 
-Alternatively you can open the index.html file in the dist directory
+```
+npm install
+```
 
+2. Build the application, using webpack and execute the command:
+
+```
+npm run-script build
+```
+
+3. Run the application using webpack in development mode, by executing the command:
+
+```
+npm run start
+```
+
+4. Go to the URL in any browser by clciking the Secret Santa Application Link:
+
+```
+[Secret Santa Application](http://localhost:8080)
+```
