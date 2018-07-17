@@ -19,7 +19,7 @@ This application, (Secret Santa) is a Western Christmas tradition in which membe
 
 ### Application Screnshot Demonstration in Chrome Browser
 
-![Alt text](/Secret Santa Application.png?raw=true "Secret Santa Application")
+![Alt text](/Secret Santa Application.png "Secret Santa Application")
 
 ### Tools Used
 
