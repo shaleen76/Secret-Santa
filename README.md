@@ -74,8 +74,5 @@ npm run-script build
 npm run start
 ```
 
-4. Go to the URL in any browser by clciking the Secret Santa Application Link:
+4. Go to the URL in any browser by clciking the Secret Santa Application Link [Secret Santa Application.](http://localhost:8080)
 
-```
-[Secret Santa Application](http://localhost:8080)
-```
