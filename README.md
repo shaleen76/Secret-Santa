@@ -23,15 +23,36 @@ This application, (Secret Santa) is a Western Christmas tradition in which membe
 
 ### Tools Used
 
-The application is responsive in nature and is designed using HTML, CSS, JavaScript, React JS, Semantic UI, Webpack, Bower, VS Code Editor, Mac and Node JS.
+The application is responsive in nature and is designed using:
+
+1. **_HTML_**
+2. **_CSS_** 
+3. **_JavaScript_**
+4. **_React JS_**
+5. **_Node JS_**
+6. **_Semantic UI_**
+7. **_Webpack_**
+8. **_Babel_**
+9. **_VS Code Editor_**
+10. **_GitHub_** 
+11. **_Mac_**
 
 ### Browser Support
 
 This application is tested in all browsers Chrome, Firefox, IE 9 and above, Safari, Android, IPhone and Opera.
 
-### Development
+### CDNs
 
-**CDNs**
+We have made use of the Semantic UI development framework that helps us in creating beautiful, responsive layouts using human-friendly HTML.
+
+We included the **CDN for Semantic UI** in `index.html` file.
+
+
+```
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css" />
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+```
 
 **Running the app**
 
