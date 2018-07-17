@@ -13,10 +13,27 @@ The Challenge
 * Extra interactivity/styling will be considered a bonus.
 * Use the included index.html and user.json to begin with but do not modify the structure of the users.json. You are free to modify index.html as you wish.
 
-Project Setup
--------------
+### Secret Santa Application
 
-* Clone the project into your local machine, and first build the project.
-* Now, run the project using the command:
+This application, (Secret Santa) is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they give a gift. The identity of the gift giver is a secret not to be revealed.
 
-* You will view the project in the url localhost:8080
+### Tools Used
+
+The application is responsive in nature and is designed using HTML, CSS, JavaScript, React JS, Semantic UI, Webpack, Bower, VS Code Editor, Mac and Node JS.
+
+### Browser Support
+
+This application is tested in all browsers Chrome, Firefox, IE 9 and above, Safari, Android, IPhone and Opera.
+
+### Development
+
+**CDNs**
+
+**Running the app**
+
+- Run `npm install`
+- Run `NODE_ENV=development gulp`
+- Go to `localhost:8889` to display the app
+
+Alternatively you can open the index.html file in the dist directory
+
