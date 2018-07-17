@@ -3,6 +3,7 @@ import User from './User';
 import users from '../data/users.json';
 import pair from '../pair';
 import Loader from './Loader';
+import Validation from './Validation';
 require('../../style.less');
 
 class SecretSanta extends Component {
@@ -12,11 +13,12 @@ class SecretSanta extends Component {
    };
 
     render()    {
-        if(!this.state.users) { 
+        if(!this.state.users.users || !this.state.users) { 
             return <Loader />;
         }
-        if(this.state.users.users.length == 1) {
-            console.log('Ad validation user length only 1 ');
+        if(this.state.users.users.length == 0 || this.state.users.users.length == 1) {
+            return <Validation />;
+            console.log('Not sufficient data ');
         }
         let userData = this.state.users.users;
         let pairs = pair(Object.keys(this.state.users.users));
